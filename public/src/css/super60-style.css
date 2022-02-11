@@ -1,0 +1,181 @@
+                        .txt-super {
+                            font-size: 20px;
+                            font-weight: 5;
+                            line-height: 2;
+                            text-align: center;
+                        }
+                        
+                        .txt-head {
+                            font-size: 33px;
+                        }
+                        
+                        .head-txt1 {
+                            font-size: 20px;
+                        }
+                        
+                        .cititable {
+                            width: 100%;
+                            text-align: left;
+                            border-left: 1px dotted rgba(0, 0, 0, .5);
+                        }
+                        
+                        .cititable th {
+                            padding: 9px;
+                            background: rgb(0, 79, 255);
+                            /* Old browsers */
+                            background: -moz-linear-gradient(180deg, rgba(189, 0, 93, 1) 0%, rgba(255, 140, 0, 1) 100%);
+                            /* FF3.6-15 */
+                            background: -webkit-linear-gradient(180deg, rgba(189, 0, 93, 1) 0%, rgba(255, 140, 0, 1) 100%);
+                            /* Chrome10-25,Safari5.1-6 */
+                            background: linear-gradient(180deg, rgba(189, 0, 93, 1) 0%, rgba(255, 140, 0, 1) 100%);
+                            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                            filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#004fff', endColorstr='#ff8c00', GradientType=1);
+                            /* IE6-9 fallback on horizontal gradient */
+                            color: #fff;
+                        }
+                        
+                        .cititable td {
+                            padding: 5px 9px;
+                            border-bottom: 1px dotted rgba(0, 0, 0, .5);
+                            border-right: 1px dotted rgba(0, 0, 0, .5);
+                        }
+                        
+                        .citybox {
+                            display: inline-block;
+                            width: 15%;
+                            min-width: 160px;
+                            text-align: left;
+                            line-height: 27px;
+                            margin: 0 -2.5px;
+                            border: 1px dotted rgba(0, 0, 0, .5);
+                        }
+                        
+                        .citylist {
+                            padding: 12px;
+                        }
+                        
+                        .citybox h4 {
+                            color: #fff;
+                            padding: 12px 0;
+                            /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#45484d+0,000000+100;Black+3D+%231 */
+                            background: rgb(69, 72, 77);
+                            /* Old browsers */
+                            background: -moz-linear-gradient(top, rgba(69, 72, 77, 1) 0%, rgba(0, 0, 0, 1) 100%);
+                            /* FF3.6-15 */
+                            background: -webkit-linear-gradient(top, rgba(69, 72, 77, 1) 0%, rgba(0, 0, 0, 1) 100%);
+                            /* Chrome10-25,Safari5.1-6 */
+                            background: linear-gradient(to bottom, rgba(69, 72, 77, 1) 0%, rgba(0, 0, 0, 1) 100%);
+                            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                            filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000', GradientType=0);
+                            /* IE6-9 */
+                            margin-top: -1px;
+                        }
+                        
+                        @media screen and (max-width: 1300px) {
+                            .col50,
+                            .col50set2 {
+                                width: calc(50% - 58px);
+                                padding: 0 27px;
+                            }
+                            .fcol {
+                                width: 90%;
+                            }
+                            .logosuper60bg {
+                                background-size: 120%;
+                            }
+                            .sup60footer {
+                                background-size: 50%, 50%, 240%, 60%, 200%;
+                            }
+                        }
+                        
+                        @media screen and (max-width: 950px) {
+                            .col50,
+                            .col50set2 {
+                                width: calc(100% - 10px);
+                                padding: 0;
+                            }
+                            .col50:first-child {
+                                border-right: none;
+                                border-bottom: 1px dotted #FF0000;
+                            }
+                            .wrapper {
+                                padding: 0 36px;
+                            }
+                            .newspage {
+                                display: inline-block;
+                                margin: 5px;
+                                width: 360px;
+                                border-radius: 12px;
+                                vertical-align: top;
+                                border: 1px solid rgba(0, 0, 0, 0);
+                            }
+                            .newspage .newsimg {
+                                display: block;
+                            }
+                            .newspage .newstext {
+                                display: block;
+                                width: calc(100% - 36px);
+                            }
+                            .newslink:hover .newspage {
+                                background-color: #eee;
+                                border: 1px solid rgba(0, 0, 0, .1);
+                                box-shadow: 0 2px 3px rgba(0, 0, 0, .1);
+                            }
+                            .colorbg1,
+                            .colorbg3 {
+                                width: 50%;
+                            }
+                            .colorbg2 {
+                                width: 40%;
+                            }
+                        }
+                        
+                        @keyframes cities {
+                            0% {
+                                background-position: 0 bottom;
+                            }
+                            100% {
+                                background-position: 1900px bottom;
+                            }
+                        }
+                        
+                        @-webkit-keyframes cities {
+                            0% {
+                                background-position: 0 bottom;
+                            }
+                            100% {
+                                background-position: 1900px bottom;
+                            }
+                        }
+                        
+                        @keyframes clouds {
+                            0% {
+                                background-position: 0 0;
+                            }
+                            100% {
+                                background-position: -1900px 0;
+                            }
+                        }
+                        
+                        @-webkit-keyframes clouds {
+                            0% {
+                                background-position: 0 0;
+                            }
+                            100% {
+                                background-position: -1900px 0;
+                            }
+                        }
+                        
+                        .cities {
+                            height: 360px;
+                            background-repeat: repeat-x;
+                            animation: cities 36s linear infinite;
+                            -webkit-animation: cities 36s linear infinite;
+                        }
+                        
+                        .clouds {
+                            height: 160px;
+                            background-repeat: repeat-x;
+                            animation: clouds 19s linear infinite;
+                            -webkit-animation: clouds 19s linear infinite;
+                        }

@@ -1,0 +1,49 @@
+.box-edit {
+    box-shadow: -4px 2px 18px -5px #888;
+    padding: 15px;
+    background-color: white;
+}
+
+.text-f {
+    font-weight: 500;
+}
+
+.text-f::after {
+    z-index: 9999;
+    content: '';
+    display: block;
+    width: 35px;
+    border: 1px solid #af821e;
+    margin: 0 2px;
+}
+
+.btnprofile {
+    border: 1px solid #f1f1f1!important;
+}
+
+.uplod-pic {
+    margin: 0 41%!important;
+}
+
+.c-reg {
+    color: white;
+}
+
+.box-p {
+    background-image: url("images/ball.jpg");
+    background-position: center;
+}
+
+.text-head {
+    margin-left: 20px;
+}
+
+.label-txt {
+    font-weight: 5;
+}
+
+@media only screen and (max-width: 600px) {
+    .uplod-pic {
+        margin: 0 17% !important;
+    }
+}

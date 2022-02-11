@@ -1,0 +1,24 @@
+
+
+.img-size {
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.mySlides {
+  display: none;
+}
+img {
+  vertical-align: middle;
+  padding: 10px;
+}
+
+.para {
+  color: aliceblue;
+  padding: 36px;
+  font-size: 18px;
+  line-height: 30px;
+}
